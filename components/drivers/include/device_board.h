@@ -1,0 +1,34 @@
+#pragma once
+
+#include "driver/gpio.h"
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+#define BOARD_SPI_SCK_PIN      GPIO_NUM_12
+#define BOARD_SPI_MOSI_PIN     GPIO_NUM_11
+#define BOARD_SPI_MISO_PIN     GPIO_NUM_13
+
+#define BOARD_TFT_CS_PIN       GPIO_NUM_10
+#define BOARD_TFT_DC_PIN       GPIO_NUM_9
+#define BOARD_TFT_RESET_PIN    GPIO_NUM_8
+#define BOARD_TFT_BACKLIGHT_PIN GPIO_NUM_7
+
+#define BOARD_NRF_LEFT_CE_PIN  GPIO_NUM_15
+#define BOARD_NRF_LEFT_CSN_PIN GPIO_NUM_14
+#define BOARD_NRF_RIGHT_CE_PIN GPIO_NUM_1
+#define BOARD_NRF_RIGHT_CSN_PIN GPIO_NUM_2
+#define BOARD_NRF_TOP_CE_PIN   GPIO_NUM_17
+#define BOARD_NRF_TOP_CSN_PIN  GPIO_NUM_18
+
+#define BOARD_BUTTON_UP_PIN      GPIO_NUM_40
+#define BOARD_BUTTON_DOWN_PIN    GPIO_NUM_20
+#define BOARD_BUTTON_CONFIRM_PIN GPIO_NUM_36
+
+#define BOARD_DISPLAY_WIDTH    160
+#define BOARD_DISPLAY_HEIGHT   128
+
+#ifdef __cplusplus
+}
+#endif
